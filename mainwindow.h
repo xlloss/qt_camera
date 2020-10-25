@@ -22,7 +22,7 @@ public:
 
 private:
     Ui::MainWindow *ui;
-    class QCamera *cam0, *cam1;
-    QCameraViewfinder *cam_view_f0, *cam_view_f1;
+    class QCamera *cam0, *cam1, *cam2, *cam3;
+    QCameraViewfinder *cam_view_f0, *cam_view_f1, *cam_view_f2, *cam_view_f3;
 };
 #endif // MAINWINDOW_H
